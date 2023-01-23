@@ -1,0 +1,40 @@
+.cart{
+    .cart-item-container{
+        display: flex;
+        align-items: center;
+        padding: 2rem 1rem;
+        border-bottom: 1px solid black;
+
+        img{
+            height: 8rem;
+            width: 8rem;
+        }
+
+        .remove-book-button{
+            background-color: rgba(242, 29, 65, 0.829); 
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        .book-details-container{
+
+            display: flex;
+            align-items: center;
+            margin: 0 2rem;
+            text-align: left;
+            .book-detail{
+                margin-top: 0.5rem;
+            }
+
+            .book-price{
+                margin-left: 2rem;
+            }
+        }
+    }
+    .books-total{
+        text-align: right;
+        margin-right: 6rem;
+        margin-top: 1rem;
+    }
+}

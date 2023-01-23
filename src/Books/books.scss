@@ -1,0 +1,48 @@
+.books{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 4rem;
+    row-gap: 4rem;
+    padding: 2rem;
+
+    .book-container{
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+    
+    .book-content{
+        text-align: left;
+        margin-left: 1rem;
+
+        .book-label-value-wrapper {
+            margin-top: 0.5rem;
+        }
+
+        .book-content-value{
+            margin-left: 1rem;
+        }
+    }
+
+    .image-container{
+        position: relative;
+        .book-image{
+            height: auto;
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+        .add-to-cart{
+            position: absolute;
+            top:0;
+            right: 0;
+            height: 2rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    
+
+}
+
